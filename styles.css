@@ -179,3 +179,197 @@ footer{
     margin-left: 46px;
     align-items: center;
 }
+
+
+@media (max-width: 1440px) {
+
+    .foot-bottom {
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .images {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .images img {
+        width: 180px;
+        margin: 5px;
+    }
+
+    .menu li {
+        margin: 10px 15px;
+        font-size: 16px;
+    }
+    
+    .title .name {
+        font-size: 70px;
+        text-align: center;
+    }
+
+    .play-btn, .info-btn {
+        margin: 10px 15px;
+        padding: 5px 15px;
+        font-size: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo {
+        width: 20%;
+        margin: 15px;
+    }
+
+    .highlight {
+        font-size: 18px;
+        text-align: center;
+        padding: 10px;
+        margin: 20px auto;
+    }
+
+    .copyright {
+        font-size: 14px;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .bottom {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .artists {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .menu li {
+        margin: 5px 0;
+        font-size: 14px;
+    }
+
+    .title .name {
+        font-size: 40px;
+        margin: 20px auto;
+        text-align: center;
+    }
+    
+    .name-buttons {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .play-btn, .info-btn {
+        margin: 5px 0;
+        padding: 3px 8px;
+        font-size: 12px;
+    }
+
+    .images img {
+        width: 100px;
+        margin: 5px 0;
+    }
+
+    .highlight {
+        padding: 8px;
+        font-size: 11px;
+        margin: 10px auto;
+        width: 90%;
+    }
+
+    .bottom {
+        width: 100%;
+    }
+
+    .artists {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .copyright {
+        font-size: 11px;
+        margin: 5px auto;
+        text-align: center;
+    }
+
+    .foot-bottom {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+}
+
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 5px;
+    }
+
+    .logo {
+        width: 25%;
+    }
+
+    .title .name {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .name-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .artists ul li {
+        font-size: 12px;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .socials {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .play-btn, .info-btn {
+        margin: 8px 0;
+        padding: 4px 10px;
+        font-size: 13px;
+    }
+
+    .images img {
+        width: 140px;
+        margin: 5px 0;
+    }
+
+    .highlight, .copyright {
+        text-align: center;
+        font-size: 12px;
+    }
+
+}
